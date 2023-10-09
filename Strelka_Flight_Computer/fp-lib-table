@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name "Footprints")(type "KiCad")(uri "C:/Users/thean/OneDrive/Documents/1. Uni Work/HPR/Strelka-Flight-Computer/Local Library/Footprints")(options "")(descr ""))
+  (version 7)
+  (lib (name "Footprints")(type "KiCad")(uri "/home/angus/Documents/Hover-Disaster/PCB-Library/Footprints")(options "")(descr ""))
 )

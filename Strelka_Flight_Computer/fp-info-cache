@@ -1,4 +1,4 @@
-20152531306822910
+20168046103751290
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52248,6 +52248,13 @@ emi filter
 5
 5
 Footprints
+524372471
+
+
+0
+26
+26
+Footprints
 ADXL375BCCZ-RL7
 
 
@@ -52262,12 +52269,26 @@ AP9101CAK-AKTRG1
 5
 5
 Footprints
+B4B-EH-ALFSN
+
+
+0
+4
+4
+Footprints
 BAT_MS621FE-FL11E
 
 
 0
 2
 2
+Footprints
+BGA153C50P14X14_1150X1300X80
+153-bga [16 gb]
+Integrated Circuit
+0
+153
+153
 Footprints
 BMX055
 
@@ -52289,6 +52310,13 @@ DPAK228P1005X240-4N
 0
 3
 3
+Footprints
+HNB09A05
+Buzzer, D12.2mm height 6.5mm, https://product.tdk.com/info/en/catalog/datasheets/piezoelectronic_buzzer_ps_en.pdf
+buzzer
+0
+2
+2
 Footprints
 HPR_Logo
 
@@ -52339,12 +52367,26 @@ LD1086DT33TR
 3
 3
 Footprints
+LGA-16(9x12.5)
+
+
+0
+8
+8
+Footprints
 MAXM10S00B
 MAX-M10S-00B-2
 Integrated Circuit
 0
 18
 18
+Footprints
+MOLEX_43045-0200
+
+
+0
+2
+2
 Footprints
 MS561101BA03-50
 
@@ -52374,6 +52416,27 @@ Connector
 4
 4
 Footprints
+SM03B-PASS-1-TBTLFSN
+
+
+0
+5
+5
+Footprints
+SM04B-PASS-TBT
+
+
+0
+6
+6
+Footprints
+SM05B-GHS-TBLFSN
+
+
+0
+7
+7
+Footprints
 SON127P800X600X95-8N
 LGA8 (8*6mm)
 Integrated Circuit
@@ -52387,6 +52450,13 @@ SOP65P490X110-8N
 0
 8
 8
+Footprints
+STA-10201
+
+
+0
+3
+2
 Footprints
 Strelka_Logo
 
@@ -52406,7 +52476,7 @@ UART_Switch
 
 
 0
-4
+6
 4
 Footprints
 ULR158M0JF1ARR
