@@ -1,0 +1,5 @@
+E-match actuation:
+- Power supply pins were connected backwards to the Op amps
+
+Power:
+- XT-30 connector was used for power input. This should be Molex Mini-fit
