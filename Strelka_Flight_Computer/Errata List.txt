@@ -23,3 +23,8 @@ SWI/SWD:
 SPI baro:
 - Baro needs its own SPI bus because the bus cannot be used while the SPI bus is active
 
+Processor:
+- Change to STM32H743
+
+Gyro:
+- Add high accuracy gyro
