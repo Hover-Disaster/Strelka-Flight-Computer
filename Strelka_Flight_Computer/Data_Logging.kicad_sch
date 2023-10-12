@@ -695,7 +695,7 @@
     (property "Value" "XTSD04GLGEAG" (at 71.12 37.719 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SON127P800X600X95-8N" (at 104.775 48.26 0)
+    (property "Footprint" "Footprints:SON127P800X600X95-8N" (at 104.775 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/2005251034_XTX-XTSD04GLGEAG_C558839.pdf" (at 104.775 50.8 0)
