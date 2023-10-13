@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -672,6 +672,14 @@
       {
         "netclass": "Low_Speed_Signal",
         "pattern": "/Actuators/EXT_SPI_MISO"
+      },
+      {
+        "netclass": "Low_Speed_Signal",
+        "pattern": "/915MHz_Radio/SPI_CLK"
+      },
+      {
+        "netclass": "Low_Speed_Signal",
+        "pattern": "/Sensors/MAX-M10S-00B/PPS"
       }
     ]
   },

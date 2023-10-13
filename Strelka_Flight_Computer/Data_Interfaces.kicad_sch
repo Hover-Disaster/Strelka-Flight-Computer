@@ -1078,7 +1078,7 @@
     (uuid fdca5e2e-ab4b-4c9f-a7ad-5032297864f5)
   )
 
-  (hierarchical_label "CAN_RXD" (shape input) (at 81.4569 121.285 180) (fields_autoplaced)
+  (hierarchical_label "CAN_RXD" (shape input) (at 81.28 121.285 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 2a091adf-738d-445c-ad3a-1ee451c43011)
   )
