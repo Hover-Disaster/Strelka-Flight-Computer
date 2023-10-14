@@ -2995,6 +2995,11 @@
     (uuid f9bd96e2-8be7-4f73-8120-037a1ab4794b)
   )
 
+  (label "SW_IN" (at 77.724 48.26 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d6bcc9a2-bca2-49cf-ad67-1e959148be9e)
+  )
+
   (hierarchical_label "BATT_VOLT" (shape input) (at 95.25 74.93 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0202db6b-803c-4be4-b823-e4d9f3d69f60)
@@ -3338,12 +3343,12 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 145.415 86.487 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 2201d731-3a73-43cb-827f-00c060d57856)
     (property "Reference" "R1" (at 145.415 82.296 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "NC" (at 145.415 84.836 90)
+    (property "Value" "0R" (at 145.415 84.836 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 145.415 86.487 0)

@@ -5742,8 +5742,8 @@
     (property "Datasheet" "~" (at 236.22 144.272 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3f6667d4-eede-4d4f-8483-b9b77d5a2a0e))
-    (pin "2" (uuid 07d8e9ff-c5ef-4e2d-a644-878200375882))
+    (pin "1" (uuid 4e242121-a627-4eca-b077-4b4c68345047))
+    (pin "2" (uuid 07c77bb2-c8e3-47ea-9dd4-75b38f767989))
     (instances
       (project "Strelka_Power_Board"
         (path "/83158c8b-22ee-48c3-a78a-e95d14e6b912/fc5f30c0-eb37-4e12-adf2-96b06c9ae2b0"

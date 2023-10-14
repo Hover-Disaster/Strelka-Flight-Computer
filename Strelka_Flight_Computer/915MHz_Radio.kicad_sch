@@ -425,6 +425,11 @@
     (uuid feb58745-67aa-4431-9d9c-3e6f33f301c3)
   )
 
+  (label "LoRa_Sig" (at 160.401 88.265 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8f4e3c83-f95d-428f-b0fa-f04076f8c23c)
+  )
+
   (hierarchical_label "SPI_MISO" (shape input) (at 132.08 93.345 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 388578e8-1449-4ddf-ab15-2fd1da2c812a)

@@ -680,6 +680,62 @@
       {
         "netclass": "Low_Speed_Signal",
         "pattern": "/Sensors/MAX-M10S-00B/PPS"
+      },
+      {
+        "netclass": "RFM95",
+        "pattern": "/915MHz_Radio/LoRa_Sig"
+      },
+      {
+        "netclass": "RFM95",
+        "pattern": "/Sensors/MAX-M10S-00B/RF_IN"
+      },
+      {
+        "netclass": "Low_Speed_Signal",
+        "pattern": "/STM32H743/SWDIO"
+      },
+      {
+        "netclass": "Low_Speed_Signal",
+        "pattern": "/STM32H743/SWCLK"
+      },
+      {
+        "netclass": "Low_Speed_Signal",
+        "pattern": "/STM32H743/SWO"
+      },
+      {
+        "netclass": "PWR_+5V",
+        "pattern": "+5VD"
+      },
+      {
+        "netclass": "PWR_+5V",
+        "pattern": "/Data_Interfaces/V_CAN"
+      },
+      {
+        "netclass": "PWR_+5V",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "PWR_+5V",
+        "pattern": "+5VA"
+      },
+      {
+        "netclass": "PWR_+5V",
+        "pattern": "VBUS"
+      },
+      {
+        "netclass": "Ematch",
+        "pattern": "+BATT"
+      },
+      {
+        "netclass": "Ematch",
+        "pattern": "VDC"
+      },
+      {
+        "netclass": "Ematch",
+        "pattern": "/Power/SW_IN"
+      },
+      {
+        "netclass": "Ematch",
+        "pattern": "-BATT"
       }
     ]
   },

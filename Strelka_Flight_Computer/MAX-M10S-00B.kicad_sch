@@ -1800,7 +1800,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 53.975 107.315 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid e5a090c6-9336-413f-a02d-cd9ea9330091)
     (property "Reference" "C37" (at 56.515 104.775 0)
       (effects (font (size 1.27 1.27)) (justify left))
