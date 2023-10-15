@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -66,7 +66,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -125,10 +125,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.09,
-        "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.35,
+        "min_via_annular_width": 0.125,
+        "min_via_diameter": 0.44999999999999996,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -472,7 +472,7 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
+        "microvia_diameter": 0.2,
         "microvia_drill": 0.1,
         "name": "Logic_+3.3V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -489,13 +489,13 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
+        "microvia_diameter": 0.2,
         "microvia_drill": 0.1,
         "name": "Low_Speed_Signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
-        "via_diameter": 0.35,
+        "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6
       },
@@ -506,7 +506,7 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
+        "microvia_diameter": 0.2,
         "microvia_drill": 0.1,
         "name": "PWR_+5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -523,13 +523,13 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
+        "microvia_diameter": 0.2,
         "microvia_drill": 0.1,
         "name": "RFM95",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.445008,
-        "via_diameter": 0.4,
+        "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6
       },
@@ -540,13 +540,13 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.155448,
         "line_style": 0,
-        "microvia_diameter": 0.3,
+        "microvia_diameter": 0.2,
         "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.155448,
-        "via_diameter": 0.4,
+        "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6
       }
@@ -736,6 +736,66 @@
       {
         "netclass": "Ematch",
         "pattern": "-BATT"
+      },
+      {
+        "netclass": "PWR_+5V",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "Ematch",
+        "pattern": "/Actuators/Ematch_Drogue1/EMATCH+"
+      },
+      {
+        "netclass": "Ematch",
+        "pattern": "/Actuators/Ematch_Drogue1/EMATCH-"
+      },
+      {
+        "netclass": "Ematch",
+        "pattern": "/Actuators/Ematch_Main/EMATCH-"
+      },
+      {
+        "netclass": "Ematch",
+        "pattern": "/Actuators/Ematch_Main/EMATCH+"
+      },
+      {
+        "netclass": "Ematch",
+        "pattern": "/Actuators/Ematch_Main/em+"
+      },
+      {
+        "netclass": "Ematch",
+        "pattern": "/Actuators/Ematch_Drogue1/em+"
+      },
+      {
+        "netclass": "Ematch",
+        "pattern": "/Actuators/M-"
+      },
+      {
+        "netclass": "Ematch",
+        "pattern": "/Actuators/M+"
+      },
+      {
+        "netclass": "Ematch",
+        "pattern": "/Actuators/D-"
+      },
+      {
+        "netclass": "Ematch",
+        "pattern": "/Actuators/D+"
+      },
+      {
+        "netclass": "Low_Speed_Signal",
+        "pattern": "/Actuators/MAIN_L"
+      },
+      {
+        "netclass": "Low_Speed_Signal",
+        "pattern": "/Actuators/MAIN_H"
+      },
+      {
+        "netclass": "Low_Speed_Signal",
+        "pattern": "/Actuators/DROGUE_L"
+      },
+      {
+        "netclass": "Low_Speed_Signal",
+        "pattern": "/Actuators/DROGUE_H"
       }
     ]
   },
