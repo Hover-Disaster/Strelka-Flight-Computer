@@ -1,30 +1,30 @@
 E-match actuation:
-- Power supply pins were connected backwards to the Op amps
-- Consider replacing with more simple continuity circuit
+- Power supply pins were connected backwards to the Op amps DONE
+- Consider replacing with more simple continuity circuit DONE
 
 Power:
-- XT-30 connector was used for power input. This should be Molex Mini-fit
-- OVLO should be achieved using the boost converter enable pin
+- XT-30 connector was used for power input. This should be Molex Mini-fit DONE
+- OVLO should be achieved using the boost converter enable pin NOT POSSIBLE
 
 Flash memory chip:
 - Wiring to flash memory was not impedance and trace length matched
-- Consider reorienting STM32 to 45 degrees
+- Consider reorienting STM32 to 45 degrees DONE
 
 GPS:
-- Remove UART switch
-- Consider adding SMA connector instead of U.FL
+- Remove UART switch DONE
+- Consider adding SMA connector instead of U.FL DONE
 
 SPI:
 - Breakout SPI and CS lines to better location
 
 SWI/SWD:
-- Consider breaking out SWO pin
+- Consider breaking out SWO pin DONE
 
 SPI baro:
-- Baro needs its own SPI bus because the bus cannot be used while the SPI bus is active
+- Baro needs its own SPI bus because the bus cannot be used while the SPI bus is active DONE
 
 Processor:
-- Change to STM32H743
+- Change to STM32H743 DONE
 
 Gyro:
-- Add high accuracy gyro
+- Add high accuracy gyro DONE

@@ -1430,7 +1430,7 @@
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" (at 154.94 74.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC#" "C2687116" (at 146.05 69.215 90)
+    (property "LCSC" "C2687116" (at 146.05 69.215 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1e9431c0-1f06-47b1-b867-baf7f2259b47))
