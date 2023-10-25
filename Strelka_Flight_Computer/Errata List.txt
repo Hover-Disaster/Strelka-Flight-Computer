@@ -28,3 +28,6 @@ Processor:
 
 Gyro:
 - Add high accuracy gyro DONE
+
+Analogue:
+- Add RC circuit to limit bandwidth on analogue channels
