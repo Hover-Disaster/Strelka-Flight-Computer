@@ -2083,6 +2083,14 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid a7a47078-4a37-4a97-aa74-8ebe4551519b)
     )
+    (pin "IO1_RF" input (at 127 108.585 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 0afff6e8-5def-47b7-a3db-6358caa915ea)
+    )
+    (pin "IO2_RF" input (at 127 110.49 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 12fcf63c-1a92-4654-a840-840171e27416)
+    )
     (instances
       (project "Strelka_Flight_Computer"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "14"))
