@@ -1513,7 +1513,7 @@
     (property "Datasheet" "~" (at 57.785 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "2.2u" (at 57.785 157.48 0)
+    (property "LCSC" "C23733" (at 57.785 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c758598c-1db7-4793-84be-428da867fc9e))

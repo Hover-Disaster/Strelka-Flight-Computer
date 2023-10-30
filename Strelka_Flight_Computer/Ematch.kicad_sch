@@ -965,6 +965,9 @@
     (property "Datasheet" "~" (at 131.064 141.097 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C15195" (at 131.064 141.097 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 5ed21ce2-3f5f-45d9-a617-7f69d5757046))
     (pin "2" (uuid 626b587d-df01-41cb-a2df-01a8da881345))
     (instances

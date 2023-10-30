@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\thean\Documents\Other Projects\Strelka-Flight-Computer\Strelka_Flight_Computer\Strelka_Flight_Computer.kicad_sch</source>
-    <date>16/10/2023 2:40:12 PM</date>
-    <tool>Eeschema 7.0.7</tool>
+    <source>/home/angus/Documents/Hover-Disaster/Strelka-Flight-Computer/Strelka_Flight_Computer/Strelka_Flight_Computer.kicad_sch</source>
+    <date>Mon 30 Oct 2023 20:24:50</date>
+    <tool>Eeschema 7.0.8-7.0.8~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -305,7 +305,11 @@
     <comp ref="C5">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C1525</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C1525"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -316,7 +320,11 @@
     <comp ref="C6">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C1525</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C1525"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -354,6 +362,32 @@
       <sheetpath names="/Power/" tstamps="/0daddb18-1491-4767-9ffd-66c8a8ce3cbd/"/>
       <tstamps>951693c7-de0c-4b5c-ae9f-a4d45c8f9713</tstamps>
     </comp>
+    <comp ref="C9">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power/" tstamps="/0daddb18-1491-4767-9ffd-66c8a8ce3cbd/"/>
+      <tstamps>abfee0e8-9758-43fc-b061-fa56f2399e1c</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C45783"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Power/" tstamps="/0daddb18-1491-4767-9ffd-66c8a8ce3cbd/"/>
+      <tstamps>481ff20d-8e01-4337-9cbe-5429d151fa7a</tstamps>
+    </comp>
     <comp ref="C41">
       <value>1500u</value>
       <footprint>Footprints:ULR158M0JF1ARR</footprint>
@@ -372,7 +406,11 @@
     <comp ref="C46">
       <value>22u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C59461</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C59461"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -383,7 +421,11 @@
     <comp ref="C47">
       <value>1u</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C52923</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C52923"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -394,7 +436,11 @@
     <comp ref="C48">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C1525</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C1525"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -418,26 +464,19 @@
       <tstamps>2ceed230-54ec-4640-9d23-b8000fde6ee5</tstamps>
     </comp>
     <comp ref="C55">
-      <value>47u</value>
+      <value>22u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C45783</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C45783"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/Power/" tstamps="/0daddb18-1491-4767-9ffd-66c8a8ce3cbd/"/>
       <tstamps>cd9d969a-90e2-4b7e-9ebf-a026582f1f4a</tstamps>
-    </comp>
-    <comp ref="C56">
-      <value>47u</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Sheetname" value="Power"/>
-      <property name="Sheetfile" value="Power.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
-      <property name="ki_keywords" value="capacitor cap"/>
-      <sheetpath names="/Power/" tstamps="/0daddb18-1491-4767-9ffd-66c8a8ce3cbd/"/>
-      <tstamps>9a1a23bb-83f8-4254-b551-bc4a36c5f07c</tstamps>
     </comp>
     <comp ref="D1">
       <value>B5819W</value>
@@ -581,7 +620,7 @@
     </comp>
     <comp ref="Q2">
       <value>CJK2333</value>
-      <footprint>Q3</footprint>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2010190933_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--CJK2333_C504109.pdf</datasheet>
       <fields>
         <field name="LCSC">C504109</field>
@@ -655,7 +694,11 @@
     <comp ref="R9">
       <value>2.7k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C13167</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C13167"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -667,10 +710,10 @@
       <value>13k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C137796</field>
+        <field name="LCSC">C22797</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C137796"/>
+      <property name="LCSC" value="C22797"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -682,10 +725,10 @@
       <value>47k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C105579</field>
+        <field name="LCSC">C25819</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C105579"/>
+      <property name="LCSC" value="C25819"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -712,10 +755,10 @@
       <value>82k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C105579</field>
+        <field name="LCSC">C23254</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C105579"/>
+      <property name="LCSC" value="C23254"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -727,10 +770,10 @@
       <value>27k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C105579</field>
+        <field name="LCSC"> C22967</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C105579"/>
+      <property name="LCSC" value=" C22967"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -850,8 +893,12 @@
     </comp>
     <comp ref="C10">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C1525</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C1525"/>
       <property name="Sheetname" value="915MHz_Radio"/>
       <property name="Sheetfile" value="915MHz_Radio.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -862,7 +909,11 @@
     <comp ref="C11">
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC"> C19702</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C19702"/>
       <property name="Sheetname" value="915MHz_Radio"/>
       <property name="Sheetfile" value="915MHz_Radio.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -886,6 +937,17 @@
       <sheetpath names="/915MHz_Radio/" tstamps="/72745e37-6398-4523-a0b8-fcae44c9df22/"/>
       <tstamps>07452759-9799-4e1f-b646-4125f5bd9c08</tstamps>
     </comp>
+    <comp ref="C12">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Ematch_Drogue1"/>
+      <property name="Sheetfile" value="Ematch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Actuators/Ematch_Drogue1/" tstamps="/35cf6da3-4352-42df-b1af-73b09ff2e1d9/620b228e-0ce7-49ae-8a03-f7e6e9d55d47/"/>
+      <tstamps>2e15a895-fdac-494a-9e15-f8dc6f6545e1</tstamps>
+    </comp>
     <comp ref="D3">
       <value>BZT52C3V6T</value>
       <footprint>Diode_SMD:D_SOD-523</footprint>
@@ -907,10 +969,11 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
       <fields>
-        <field name="LCSC">C347476</field>
+        <field name="LCSC">C15127</field>
       </fields>
       <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
-      <property name="LCSC" value="C347476"/>
+      <property name="LCSC" value="C15127"/>
+      <property name="Field5" value=""/>
       <property name="Sheetname" value="Ematch_Drogue1"/>
       <property name="Sheetfile" value="Ematch.kicad_sch"/>
       <property name="ki_description" value="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
@@ -999,10 +1062,10 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C11702</field>
+        <field name="LCSC">C25744</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C11702"/>
+      <property name="LCSC" value="C25744"/>
       <property name="Sheetname" value="Ematch_Drogue1"/>
       <property name="Sheetfile" value="Ematch.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1014,10 +1077,10 @@
       <value>1k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C11702</field>
+        <field name="LCSC"> C11702</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C11702"/>
+      <property name="LCSC" value=" C11702"/>
       <property name="Sheetname" value="Ematch_Drogue1"/>
       <property name="Sheetfile" value="Ematch.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1059,7 +1122,11 @@
     <comp ref="C1">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C1525</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C1525"/>
       <property name="Sheetname" value="Data_Interfaces"/>
       <property name="Sheetfile" value="Data_Interfaces.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1112,7 +1179,11 @@
     <comp ref="R12">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C11702</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value=" C11702"/>
       <property name="Sheetname" value="Data_Interfaces"/>
       <property name="Sheetfile" value="Data_Interfaces.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1123,7 +1194,11 @@
     <comp ref="R13">
       <value>120R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25079</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25079"/>
       <property name="Sheetname" value="Data_Interfaces"/>
       <property name="Sheetfile" value="Data_Interfaces.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1166,7 +1241,11 @@
     <comp ref="C26">
       <value>2.2u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23630</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C23630"/>
       <property name="Sheetname" value="Actuators"/>
       <property name="Sheetfile" value="Actuators.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1177,7 +1256,11 @@
     <comp ref="C27">
       <value>2.2u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23630</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C23630"/>
       <property name="Sheetname" value="Actuators"/>
       <property name="Sheetfile" value="Actuators.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1247,7 +1330,7 @@
       <tstamps>991660e8-f15c-4c59-ba9b-42d042909378</tstamps>
     </comp>
     <comp ref="R18">
-      <value>33</value>
+      <value>33R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C25105</field>
@@ -1262,7 +1345,7 @@
       <tstamps>d115ff6d-5d20-48d5-8b42-cbaf450f043d</tstamps>
     </comp>
     <comp ref="R19">
-      <value>33</value>
+      <value>33R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C25105</field>
@@ -1277,7 +1360,7 @@
       <tstamps>5568e36e-337e-4d74-9c05-a4659618e350</tstamps>
     </comp>
     <comp ref="R21">
-      <value>33</value>
+      <value>33R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C25105</field>
@@ -1292,7 +1375,7 @@
       <tstamps>16ba3917-2e07-424b-8c91-58563efb10ed</tstamps>
     </comp>
     <comp ref="R65">
-      <value>33</value>
+      <value>33R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C25105</field>
@@ -1305,61 +1388,6 @@
       <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/Actuators/" tstamps="/35cf6da3-4352-42df-b1af-73b09ff2e1d9/"/>
       <tstamps>bb836884-e42e-495f-8ce1-f3f12c9e9434</tstamps>
-    </comp>
-    <comp ref="TP2">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value="Sensors"/>
-      <property name="Sheetfile" value="Sensors.kicad_sch"/>
-      <property name="ki_description" value="test point"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <sheetpath names="/Sensors/" tstamps="/78f71895-bddb-4f64-a608-99074f2d1c44/"/>
-      <tstamps>e171361b-eeb0-4c17-beb5-550239d3455b</tstamps>
-    </comp>
-    <comp ref="TP5">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value="Sensors"/>
-      <property name="Sheetfile" value="Sensors.kicad_sch"/>
-      <property name="ki_description" value="test point"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <sheetpath names="/Sensors/" tstamps="/78f71895-bddb-4f64-a608-99074f2d1c44/"/>
-      <tstamps>d8e594c5-e03e-4d50-9cb4-868b34681f7c</tstamps>
-    </comp>
-    <comp ref="TP6">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value="Sensors"/>
-      <property name="Sheetfile" value="Sensors.kicad_sch"/>
-      <property name="ki_description" value="test point"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <sheetpath names="/Sensors/" tstamps="/78f71895-bddb-4f64-a608-99074f2d1c44/"/>
-      <tstamps>fea413de-bd27-4d3e-bb8e-2c3bedbb3b38</tstamps>
-    </comp>
-    <comp ref="TP7">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value="Sensors"/>
-      <property name="Sheetfile" value="Sensors.kicad_sch"/>
-      <property name="ki_description" value="test point"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <sheetpath names="/Sensors/" tstamps="/78f71895-bddb-4f64-a608-99074f2d1c44/"/>
-      <tstamps>da5aea8b-ad65-4029-bf81-2b2ff111d1f5</tstamps>
-    </comp>
-    <comp ref="TP8">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value="Sensors"/>
-      <property name="Sheetfile" value="Sensors.kicad_sch"/>
-      <property name="ki_description" value="test point"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <sheetpath names="/Sensors/" tstamps="/78f71895-bddb-4f64-a608-99074f2d1c44/"/>
-      <tstamps>7e5f8f49-a7d0-49e3-a3b3-be61347a0739</tstamps>
     </comp>
     <comp ref="TP9">
       <value>TestPoint</value>
@@ -1383,21 +1411,14 @@
       <sheetpath names="/Sensors/" tstamps="/78f71895-bddb-4f64-a608-99074f2d1c44/"/>
       <tstamps>39f82b3f-9ca9-4279-9156-bba18ce1b003</tstamps>
     </comp>
-    <comp ref="TP11">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value="Sensors"/>
-      <property name="Sheetfile" value="Sensors.kicad_sch"/>
-      <property name="ki_description" value="test point"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <sheetpath names="/Sensors/" tstamps="/78f71895-bddb-4f64-a608-99074f2d1c44/"/>
-      <tstamps>953223ab-c442-4cc6-9c4c-db513f7909a8</tstamps>
-    </comp>
     <comp ref="C31">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C1525</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C1525"/>
       <property name="Sheetname" value="Data_Logging"/>
       <property name="Sheetfile" value="Data_Logging.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1497,7 +1518,11 @@
     <comp ref="C28">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C1525</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C1525"/>
       <property name="Sheetname" value="BMX055"/>
       <property name="Sheetfile" value="BMX055.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1508,7 +1533,11 @@
     <comp ref="C29">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C1525</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C1525"/>
       <property name="Sheetname" value="BMX055"/>
       <property name="Sheetfile" value="BMX055.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1533,7 +1562,11 @@
     <comp ref="C30">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C1525</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C1525"/>
       <property name="Sheetname" value="MS561101BA03-50"/>
       <property name="Sheetfile" value="MS561101BA03-50.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1554,7 +1587,11 @@
     <comp ref="C2">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C1525</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C1525"/>
       <property name="Sheetname" value="ASM330LHHXTR"/>
       <property name="Sheetfile" value="ASM330LHHXTR.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1580,7 +1617,11 @@
     <comp ref="C4">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C1525</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C1525"/>
       <property name="Sheetname" value="ASM330LHHXTR"/>
       <property name="Sheetfile" value="ASM330LHHXTR.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1618,7 +1659,11 @@
     <comp ref="C49">
       <value>1u</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C52923</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C52923"/>
       <property name="Sheetname" value="STM32H743"/>
       <property name="Sheetfile" value="STM32H743.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1629,7 +1674,11 @@
     <comp ref="C50">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C1525</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C1525"/>
       <property name="Sheetname" value="STM32H743"/>
       <property name="Sheetfile" value="STM32H743.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1640,7 +1689,11 @@
     <comp ref="C52">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C1525</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C1525"/>
       <property name="Sheetname" value="STM32H743"/>
       <property name="Sheetfile" value="STM32H743.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1651,7 +1704,11 @@
     <comp ref="C53">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C1525</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C1525"/>
       <property name="Sheetname" value="STM32H743"/>
       <property name="Sheetfile" value="STM32H743.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1662,7 +1719,11 @@
     <comp ref="C54">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C1525</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C1525"/>
       <property name="Sheetname" value="STM32H743"/>
       <property name="Sheetfile" value="STM32H743.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1673,7 +1734,11 @@
     <comp ref="C60">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C1525</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C1525"/>
       <property name="Sheetname" value="STM32H743"/>
       <property name="Sheetfile" value="STM32H743.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1684,7 +1749,11 @@
     <comp ref="C61">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C1525</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C1525"/>
       <property name="Sheetname" value="STM32H743"/>
       <property name="Sheetfile" value="STM32H743.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1755,7 +1824,11 @@
     <comp ref="C66">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C1525</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C1525"/>
       <property name="Sheetname" value="STM32H743"/>
       <property name="Sheetfile" value="STM32H743.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1766,7 +1839,11 @@
     <comp ref="C67">
       <value>2.2u</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C12530</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C12530"/>
       <property name="Sheetname" value="STM32H743"/>
       <property name="Sheetfile" value="STM32H743.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1777,7 +1854,11 @@
     <comp ref="C68">
       <value>2.2u</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C12530</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C12530"/>
       <property name="Sheetname" value="STM32H743"/>
       <property name="Sheetfile" value="STM32H743.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1930,7 +2011,11 @@
     <comp ref="R74">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C11702</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value=" C11702"/>
       <property name="Sheetname" value="STM32H743"/>
       <property name="Sheetfile" value="STM32H743.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1941,7 +2026,11 @@
     <comp ref="R75">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25744"/>
       <property name="Sheetname" value="STM32H743"/>
       <property name="Sheetfile" value="STM32H743.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1953,10 +2042,10 @@
       <value>33R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C23140</field>
+        <field name="LCSC">C25105</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C23140"/>
+      <property name="LCSC" value="C25105"/>
       <property name="Sheetname" value="STM32H743"/>
       <property name="Sheetfile" value="STM32H743.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1967,7 +2056,11 @@
     <comp ref="R77">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C11702</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value=" C11702"/>
       <property name="Sheetname" value="STM32H743"/>
       <property name="Sheetfile" value="STM32H743.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1978,7 +2071,11 @@
     <comp ref="R78">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C11702</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value=" C11702"/>
       <property name="Sheetname" value="STM32H743"/>
       <property name="Sheetfile" value="STM32H743.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1989,7 +2086,11 @@
     <comp ref="R79">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25744"/>
       <property name="Sheetname" value="STM32H743"/>
       <property name="Sheetfile" value="STM32H743.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2000,7 +2101,11 @@
     <comp ref="R80">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C11702</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value=" C11702"/>
       <property name="Sheetname" value="STM32H743"/>
       <property name="Sheetfile" value="STM32H743.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2037,7 +2142,11 @@
     <comp ref="R86">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25744"/>
       <property name="Sheetname" value="STM32H743"/>
       <property name="Sheetfile" value="STM32H743.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2048,7 +2157,11 @@
     <comp ref="R87">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25744"/>
       <property name="Sheetname" value="STM32H743"/>
       <property name="Sheetfile" value="STM32H743.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2134,6 +2247,17 @@
       <sheetpath names="/STM32H743/" tstamps="/35f7b859-8b4f-4308-9fbf-2678b353144a/"/>
       <tstamps>63a870a2-d3a1-4524-9a4f-11becd0a8511</tstamps>
     </comp>
+    <comp ref="C13">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Ematch_Main"/>
+      <property name="Sheetfile" value="Ematch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Actuators/Ematch_Main/" tstamps="/35cf6da3-4352-42df-b1af-73b09ff2e1d9/8cb728ef-7455-4a15-8c69-f1099dedd937/"/>
+      <tstamps>2e15a895-fdac-494a-9e15-f8dc6f6545e1</tstamps>
+    </comp>
     <comp ref="D5">
       <value>BZT52C3V6T</value>
       <footprint>Diode_SMD:D_SOD-523</footprint>
@@ -2155,10 +2279,11 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
       <fields>
-        <field name="LCSC">C347476</field>
+        <field name="LCSC">C15127</field>
       </fields>
       <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
-      <property name="LCSC" value="C347476"/>
+      <property name="LCSC" value="C15127"/>
+      <property name="Field5" value=""/>
       <property name="Sheetname" value="Ematch_Main"/>
       <property name="Sheetfile" value="Ematch.kicad_sch"/>
       <property name="ki_description" value="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
@@ -2247,10 +2372,10 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C11702</field>
+        <field name="LCSC">C25744</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C11702"/>
+      <property name="LCSC" value="C25744"/>
       <property name="Sheetname" value="Ematch_Main"/>
       <property name="Sheetfile" value="Ematch.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2262,10 +2387,10 @@
       <value>1k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C11702</field>
+        <field name="LCSC"> C11702</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C11702"/>
+      <property name="LCSC" value=" C11702"/>
       <property name="Sheetname" value="Ematch_Main"/>
       <property name="Sheetfile" value="Ematch.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2349,7 +2474,11 @@
     <comp ref="C38">
       <value>4.7u</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">2.2u</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="2.2u"/>
       <property name="Sheetname" value="MAX-M10S-00B"/>
       <property name="Sheetfile" value="MAX-M10S-00B.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2360,7 +2489,11 @@
     <comp ref="C39">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C1525</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=" C1525"/>
       <property name="Sheetname" value="MAX-M10S-00B"/>
       <property name="Sheetfile" value="MAX-M10S-00B.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2371,7 +2504,11 @@
     <comp ref="C40">
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C15525</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C15525"/>
       <property name="Sheetname" value="MAX-M10S-00B"/>
       <property name="Sheetfile" value="MAX-M10S-00B.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2458,7 +2595,11 @@
     <comp ref="R55">
       <value>0R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC"> C17168</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value=" C17168"/>
       <property name="Sheetname" value="MAX-M10S-00B"/>
       <property name="Sheetfile" value="MAX-M10S-00B.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -3507,31 +3648,31 @@
       <uri>${HOVER_LIBS_DIR}/BMX055.kicad_sym</uri>
     </library>
     <library logical="Battery_Management">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Battery_Management.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Battery_Management.kicad_sym</uri>
     </library>
     <library logical="Connector">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
     </library>
     <library logical="Connector_Generic">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
     </library>
     <library logical="DMG6968UDM-7">
       <uri>${HOVER_LIBS_DIR}/DMG6968UDM-7.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
     <library logical="Diode">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
     </library>
     <library logical="Interface_CAN_LIN">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Interface_CAN_LIN.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Interface_CAN_LIN.kicad_sym</uri>
     </library>
     <library logical="MAX-M10S-00B">
       <uri>${HOVER_LIBS_DIR}/MAX-M10S-00B.kicad_sym</uri>
     </library>
     <library logical="MCU_ST_STM32H7">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/MCU_ST_STM32H7.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//MCU_ST_STM32H7.kicad_sym</uri>
     </library>
     <library logical="MS561101BA03-50">
       <uri>${HOVER_LIBS_DIR}/MS561101BA03-50.kicad_sym</uri>
@@ -3540,28 +3681,28 @@
       <uri>${HOVER_LIBS_DIR}/MS621FE-FL11E.kicad_sym</uri>
     </library>
     <library logical="Mechanical">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
     </library>
     <library logical="Power_Protection">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Power_Protection.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Power_Protection.kicad_sym</uri>
     </library>
     <library logical="RF_Module">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/RF_Module.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//RF_Module.kicad_sym</uri>
     </library>
     <library logical="Regulator_Linear">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
     </library>
     <library logical="SM06B-GHS-TB_LF__SN_">
       <uri>${HOVER_LIBS_DIR}/SM06B-GHS-TB_LF__SN_.kicad_sym</uri>
     </library>
     <library logical="Switch">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
     </library>
     <library logical="TPS61085DGKR">
       <uri>${HOVER_LIBS_DIR}/TPS61085DGKR.kicad_sym</uri>
     </library>
     <library logical="Transistor_FET">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Transistor_FET.kicad_sym</uri>
     </library>
     <library logical="UART_Switch">
       <uri>${HOVER_LIBS_DIR}/UART_Switch.kicad_sym</uri>
@@ -3633,8 +3774,8 @@
       <node ref="U5" pin="3" pinfunction="VDD" pintype="power_in"/>
     </net>
     <net code="3" name="+5VA">
+      <node ref="C14" pin="1" pintype="passive"/>
       <node ref="C55" pin="1" pintype="passive"/>
-      <node ref="C56" pin="1" pintype="passive"/>
       <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R62" pin="2" pintype="passive"/>
@@ -3667,9 +3808,11 @@
     </net>
     <net code="9" name="/915MHz_Radio/IO1_RF">
       <node ref="U4" pin="15" pinfunction="DIO1" pintype="bidirectional"/>
+      <node ref="U6" pin="84" pinfunction="PD3" pintype="bidirectional"/>
     </net>
     <net code="10" name="/915MHz_Radio/IO2_RF">
       <node ref="U4" pin="16" pinfunction="DIO2" pintype="bidirectional"/>
+      <node ref="U6" pin="85" pinfunction="PD4" pintype="bidirectional"/>
     </net>
     <net code="11" name="/915MHz_Radio/IO3_RF">
       <node ref="U4" pin="11" pinfunction="DIO3" pintype="bidirectional"/>
@@ -3689,14 +3832,12 @@
       <node ref="U6" pin="35" pinfunction="PB1" pintype="bidirectional"/>
     </net>
     <net code="16" name="/915MHz_Radio/SPI_CLK">
-      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="13" pinfunction="SCL" pintype="unspecified"/>
       <node ref="U11" pin="9" pinfunction="SCX" pintype="bidirectional"/>
       <node ref="U4" pin="4" pinfunction="SCK" pintype="input"/>
       <node ref="U6" pin="52" pinfunction="PB13" pintype="bidirectional"/>
     </net>
     <net code="17" name="/915MHz_Radio/SPI_MISO">
-      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="SDO/SA0" pintype="unspecified"/>
       <node ref="U11" pin="12" pinfunction="SDO2" pintype="bidirectional"/>
       <node ref="U11" pin="17" pinfunction="SDO1" pintype="bidirectional"/>
@@ -3704,7 +3845,6 @@
       <node ref="U6" pin="53" pinfunction="PB14" pintype="bidirectional"/>
     </net>
     <net code="18" name="/915MHz_Radio/SPI_MOSI">
-      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="14" pinfunction="SDA" pintype="unspecified"/>
       <node ref="U11" pin="11" pinfunction="SDX" pintype="bidirectional"/>
       <node ref="U4" pin="3" pinfunction="MOSI" pintype="input"/>
@@ -3721,6 +3861,7 @@
       <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
     </net>
     <net code="21" name="/Actuators/DROGUE_CONT">
+      <node ref="C12" pin="1" pintype="passive"/>
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R14" pin="1" pintype="passive"/>
       <node ref="U6" pin="33" pinfunction="PC5" pintype="bidirectional"/>
@@ -3769,6 +3910,7 @@
       <node ref="Q10" pin="3" pinfunction="D" pintype="passive"/>
     </net>
     <net code="32" name="/Actuators/MAIN_CONT">
+      <node ref="C13" pin="1" pintype="passive"/>
       <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R15" pin="1" pintype="passive"/>
       <node ref="U6" pin="34" pinfunction="PB0" pintype="bidirectional"/>
@@ -3848,6 +3990,7 @@
       <node ref="U6" pin="79" pinfunction="PC11" pintype="bidirectional"/>
     </net>
     <net code="50" name="/Power/BATT_VOLT">
+      <node ref="C9" pin="1" pintype="passive"/>
       <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R59" pin="1" pintype="passive"/>
       <node ref="R60" pin="2" pintype="passive"/>
@@ -3939,17 +4082,14 @@
       <node ref="Y6" pin="3" pinfunction="3" pintype="passive"/>
     </net>
     <net code="70" name="/STM32H743/SPI2_NSS1">
-      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U11" pin="16" pinfunction="CSB1" pintype="bidirectional"/>
       <node ref="U6" pin="55" pinfunction="PD8" pintype="bidirectional"/>
     </net>
     <net code="71" name="/STM32H743/SPI2_NSS2">
-      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U11" pin="5" pinfunction="CSB2" pintype="bidirectional"/>
       <node ref="U6" pin="56" pinfunction="PD9" pintype="bidirectional"/>
     </net>
     <net code="72" name="/STM32H743/SPI2_NSS3">
-      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U11" pin="20" pinfunction="CSB3" pintype="bidirectional"/>
       <node ref="U6" pin="57" pinfunction="PD10" pintype="bidirectional"/>
     </net>
@@ -4044,6 +4184,9 @@
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C26" pin="1" pintype="passive"/>
       <node ref="C27" pin="1" pintype="passive"/>
@@ -4069,7 +4212,6 @@
       <node ref="C53" pin="2" pintype="passive"/>
       <node ref="C54" pin="2" pintype="passive"/>
       <node ref="C55" pin="2" pintype="passive"/>
-      <node ref="C56" pin="2" pintype="passive"/>
       <node ref="C60" pin="2" pintype="passive"/>
       <node ref="C61" pin="2" pintype="passive"/>
       <node ref="C62" pin="2" pintype="passive"/>
@@ -4081,6 +4223,7 @@
       <node ref="C68" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
       <node ref="D10" pin="1" pinfunction="A1" pintype="passive"/>
       <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
@@ -4397,55 +4540,49 @@
     <net code="153" name="unconnected-(U6-PD1-Pad82)">
       <node ref="U6" pin="82" pinfunction="PD1" pintype="bidirectional"/>
     </net>
-    <net code="154" name="unconnected-(U6-PD3-Pad84)">
-      <node ref="U6" pin="84" pinfunction="PD3" pintype="bidirectional"/>
-    </net>
-    <net code="155" name="unconnected-(U6-PD4-Pad85)">
-      <node ref="U6" pin="85" pinfunction="PD4" pintype="bidirectional"/>
-    </net>
-    <net code="156" name="unconnected-(U6-PD5-Pad86)">
+    <net code="154" name="unconnected-(U6-PD5-Pad86)">
       <node ref="U6" pin="86" pinfunction="PD5" pintype="bidirectional"/>
     </net>
-    <net code="157" name="unconnected-(U6-PD6-Pad87)">
+    <net code="155" name="unconnected-(U6-PD6-Pad87)">
       <node ref="U6" pin="87" pinfunction="PD6" pintype="bidirectional"/>
     </net>
-    <net code="158" name="unconnected-(U6-PD7-Pad88)">
+    <net code="156" name="unconnected-(U6-PD7-Pad88)">
       <node ref="U6" pin="88" pinfunction="PD7" pintype="bidirectional"/>
     </net>
-    <net code="159" name="unconnected-(U6-PE0-Pad97)">
+    <net code="157" name="unconnected-(U6-PE0-Pad97)">
       <node ref="U6" pin="97" pinfunction="PE0" pintype="bidirectional"/>
     </net>
-    <net code="160" name="unconnected-(U6-PE1-Pad98)">
+    <net code="158" name="unconnected-(U6-PE1-Pad98)">
       <node ref="U6" pin="98" pinfunction="PE1" pintype="bidirectional"/>
     </net>
-    <net code="161" name="unconnected-(U6-PE2-Pad1)">
+    <net code="159" name="unconnected-(U6-PE2-Pad1)">
       <node ref="U6" pin="1" pinfunction="PE2" pintype="bidirectional"/>
     </net>
-    <net code="162" name="unconnected-(U6-PE3-Pad2)">
+    <net code="160" name="unconnected-(U6-PE3-Pad2)">
       <node ref="U6" pin="2" pinfunction="PE3" pintype="bidirectional"/>
     </net>
-    <net code="163" name="unconnected-(U6-PE4-Pad3)">
+    <net code="161" name="unconnected-(U6-PE4-Pad3)">
       <node ref="U6" pin="3" pinfunction="PE4" pintype="bidirectional"/>
     </net>
-    <net code="164" name="unconnected-(U6-PE5-Pad4)">
+    <net code="162" name="unconnected-(U6-PE5-Pad4)">
       <node ref="U6" pin="4" pinfunction="PE5" pintype="bidirectional"/>
     </net>
-    <net code="165" name="unconnected-(U6-PE6-Pad5)">
+    <net code="163" name="unconnected-(U6-PE6-Pad5)">
       <node ref="U6" pin="5" pinfunction="PE6" pintype="bidirectional"/>
     </net>
-    <net code="166" name="unconnected-(U6-PE7-Pad37)">
+    <net code="164" name="unconnected-(U6-PE7-Pad37)">
       <node ref="U6" pin="37" pinfunction="PE7" pintype="bidirectional"/>
     </net>
-    <net code="167" name="unconnected-(U6-PE8-Pad38)">
+    <net code="165" name="unconnected-(U6-PE8-Pad38)">
       <node ref="U6" pin="38" pinfunction="PE8" pintype="bidirectional"/>
     </net>
-    <net code="168" name="unconnected-(U6-PE9-Pad39)">
+    <net code="166" name="unconnected-(U6-PE9-Pad39)">
       <node ref="U6" pin="39" pinfunction="PE9" pintype="bidirectional"/>
     </net>
-    <net code="169" name="unconnected-(U6-PE10-Pad40)">
+    <net code="167" name="unconnected-(U6-PE10-Pad40)">
       <node ref="U6" pin="40" pinfunction="PE10" pintype="bidirectional"/>
     </net>
-    <net code="170" name="unconnected-(U6-PE15-Pad45)">
+    <net code="168" name="unconnected-(U6-PE15-Pad45)">
       <node ref="U6" pin="45" pinfunction="PE15" pintype="bidirectional"/>
     </net>
   </nets>
