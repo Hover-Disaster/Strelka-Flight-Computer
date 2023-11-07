@@ -1,13 +1,13 @@
 E-match actuation:
-- Power supply pins were connected backwards to the Op amps DONE
+- Power supply pins were connected backwards to the Op amps DONE - Circuit replaced.
 - Consider replacing with more simple continuity circuit DONE
 
 Power:
 - XT-30 connector was used for power input. This should be Molex Mini-fit DONE
-- OVLO should be achieved using the boost converter enable pin NOT POSSIBLE
+- OVLO should be achieved using the boost converter enable pin NOT POSSIBLE (with boost converter used)
 
 Flash memory chip:
-- Wiring to flash memory was not impedance and trace length matched
+- Wiring to flash memory was not impedance and trace length matched DONE (50 ohm)
 - Consider reorienting STM32 to 45 degrees DONE
 
 GPS:
@@ -15,13 +15,13 @@ GPS:
 - Consider adding SMA connector instead of U.FL DONE
 
 SPI:
-- Breakout SPI and CS lines to better location
+- Breakout SPI and CS lines to better location NOT DONE (removed due to routing difficulty)
 
 SWI/SWD:
 - Consider breaking out SWO pin DONE
 
 SPI baro:
-- Baro needs its own SPI bus because the bus cannot be used while the SPI bus is active DONE
+- Baro needs its own SPI bus because the bus cannot be used while the baro is calculating pressure DONE
 
 Processor:
 - Change to STM32H743 DONE
@@ -30,4 +30,4 @@ Gyro:
 - Add high accuracy gyro DONE
 
 Analogue:
-- Add RC circuit to limit bandwidth on analogue channels
+- Add RC circuit to limit bandwidth on analogue channels DONE
