@@ -4800,9 +4800,6 @@
     (property "LCSC" "C1548" (at 257.302 33.782 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Field5" "" (at 257.302 33.782 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (pin "1" (uuid c9bdf81e-fb57-4b03-b815-0e896937740f))
     (pin "2" (uuid 2c2d73c1-9331-4e47-9d5d-56b0d0ddcbe2))
     (instances
