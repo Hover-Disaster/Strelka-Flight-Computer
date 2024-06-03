@@ -31,3 +31,10 @@ Gyro:
 
 Analogue:
 - Add RC circuit to limit bandwidth on analogue channels DONE
+
+RFM95W:
+- Put RFM on its own SPI bus. Signal integrity issues cause the device to fail. 
+
+Buzzer:
+- Correctly connect buzzer pin to MOSFET
+- Determine why buzzer fails occasionally. Likely to do with Vth of high side P-ch MOSFET
