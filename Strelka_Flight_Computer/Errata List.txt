@@ -38,3 +38,8 @@ RFM95W:
 Buzzer:
 - Correctly connect buzzer pin to MOSFET
 - Determine why buzzer fails occasionally. Likely to do with Vth of high side P-ch MOSFET
+
+Voltage drop across diodes:
+- There is a voltage drop across the diodes that feed in 5V from the ext SPI interface. It ends up being around 3.8V after passing through the 2 diodes
+This results in the 5V rail being underpowered which makes the CAN IC malfunction. When the debugger is plugged in, the stm32 is powered externally and thus the voltage drop
+across the diode is less because its drawing less current. Consider replacing these diodes with ideal diodes to minimise voltage drop.
