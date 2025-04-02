@@ -16,6 +16,7 @@ GPS:
 
 SPI:
 - Breakout SPI and CS lines to better location NOT DONE (removed due to routing difficulty)
+- 33R series resistors create large voltage drop when SPI lines are somewhat long. Remove these resistors.
 
 SWI/SWD:
 - Consider breaking out SWO pin DONE
