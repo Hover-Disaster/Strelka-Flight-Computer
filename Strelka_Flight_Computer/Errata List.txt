@@ -9,6 +9,7 @@ Power:
 Flash memory chip:
 - Wiring to flash memory was not impedance and trace length matched DONE (50 ohm)
 - Consider reorienting STM32 to 45 degrees DONE
+- Consider adding a mosfet to power cycle the SD card when it does not respond.
 
 GPS:
 - Remove UART switch DONE
